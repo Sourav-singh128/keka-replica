@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  border-radius: 20px;
+  padding: 5px;
+  transition: 0.5s;
+  margin-bottom: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.background-light {
+  background-color: gainsboro;
+}
+.background-dark {
+  background-color: limegreen;
+}
+.circle-active {
+  background-color: white;
+}

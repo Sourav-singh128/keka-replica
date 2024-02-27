@@ -1,0 +1,9 @@
+keka replica todo.
+
+create employee base page & detail page. (perform db mutation insert & update too.) 
+1> infinite scroll
+6> do multi-select.
+2> searching
+3> Refresh jwt token.
+4> attachment in write post( return url) (completed)
+5> create a table & edit the entire row functionality.

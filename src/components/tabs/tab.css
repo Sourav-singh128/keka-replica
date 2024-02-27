@@ -1,0 +1,37 @@
+.tab-nav {
+  list-style: none;
+}
+
+.tab-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.left-box {
+  width: 400px;
+  margin-right: 50px;
+}
+
+.main-box {
+  width: 600px;
+}
+.tab-nav li {
+  border: 1px solid black;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.tab-nav li:first-child {
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+}
+
+.tab-nav li:last-child {
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+
+.tab-nav .active {
+  border: 1px solid green !important;
+  background-color: yellow;
+}

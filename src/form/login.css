@@ -1,0 +1,16 @@
+.sign-up {
+  margin-top: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  align-items: center;
+}
+
+#checkbox {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}

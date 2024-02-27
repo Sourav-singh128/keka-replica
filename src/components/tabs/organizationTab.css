@@ -1,0 +1,37 @@
+.post {
+  overflow: hidden;
+  margin: 10px 0;
+  resize: none;
+  width: 30%;
+}
+
+.upload-post {
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.organization-tab-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.tab-header {
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+}
+.media {
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.fetch-posts {
+  border: 1px solid gray;
+  padding: 10px;
+}

@@ -1,0 +1,9 @@
+.dropdown-container li:hover {
+  background-color: #2196f3;
+}
+
+.dropdown-container li {
+  list-style-type: none;
+  padding: 0 40px;
+  color: black;
+}
